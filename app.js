@@ -41,14 +41,14 @@ const timeGenerator = () => {
     //format time before displaying
     let secondsValue = seconds < 10 ? `0${seconds}` : seconds;
     let minutesValue = minutes < 10 ? `0${minutes}` : minutes;
-    timeValue.innerHTML = `<span>Time:</span>${minutesValue}:${secondsValue}`;
+    timeValue.innerHTML = `<span>Time: </span>${minutesValue}:${secondsValue}`;
 
 };
 
 //Moves
 const movesCounter = () => {
     movesCount +=1;
-    moves.innerHTML = `<span>Moves:</span>${movesCount}`;
+    moves.innerHTML = `<span>Moves: </span>${movesCount}`;
 };
 
 //Pick random from array
@@ -132,8 +132,8 @@ startButton.addEventListener("click", () => {
     stopButton.classList.remove("hide");
     startButton.classList.add("hide");
     interval = setInterval(timeGenerator, 1000);
-    moves.innerHTML = `<span>Moves:</span> ${movesCount}`;
-    timeValue.innerHTML = `<span>Time:</span>00:00`;
+    moves.innerHTML = `<span>Moves: </span> ${movesCount}`;
+    timeValue.innerHTML = `<span>Time: </span>00:00`;
     initializer();
 });
 
