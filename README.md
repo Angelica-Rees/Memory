@@ -6,7 +6,13 @@ This is a memory game made with HTML, CSS, and JS. To begin, it opens a start sc
 
 ### How to Run 
 
-To run this you need to have Node.js installed in your system. Then in CMD, run the command npm install http-server -g. After that navigate to the specific path of your file folder in CMD and run the commmand http-server. Then go to your browser and type localhost:8080. The application should run.
+1. To run this you need to have Node.js installed in your system [https://nodejs.org/en/download/]. 
+
+2. Run the command `npm install http-server -g`
+
+3. After that navigate to the specific path of your file folder in command prompt and run the commmand `http-server` **note: may need to run as administrator**.
+ 
+4. Then go to your browser and type localhost:8080. The application should run.
 
 ### Acknowledgements
 
