@@ -6,13 +6,15 @@ This is a memory game made with HTML, CSS, and JS. To begin, it opens a start sc
 
 ### How to Run 
 
-1. To run this you need to have Node.js installed in your system [https://nodejs.org/en/download/]. 
+1. Have Docker running [https://docs.docker.com/engine/install/]
 
-2. Run the command `npm install http-server -g`
+2. Within this directory run `docker build -t memory_game`
 
-3. After that navigate to the specific path of your file folder in command prompt and run the commmand `http-server` **note: may need to run as administrator**.
- 
-4. Then go to your browser and type localhost:8080. The application should run.
+3. Run `docker run -d -p 8080:8080 memory_game`
+
+4. In browser go to `localhost:8080`
+
+5. When finished with it, run `docker stop <docker container id>`
 
 ### Acknowledgements
 
