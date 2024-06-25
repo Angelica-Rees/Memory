@@ -7,14 +7,11 @@ This is a memory game made with HTML, CSS, and JS. To begin, it opens a start sc
 ### How to Run Locally
 
 1. Have Docker running [https://docs.docker.com/engine/install/]
-
-2. Within this directory run `docker build -t memory_game .`
-
-3. Run `docker run -d -p 8080:8080 memory_game`
-
-4. In browser go to `localhost:8080`
-
-5. When finished with it, run `docker stop <docker container id>` or you can stop the container in the docker desktop app
+2. Clone repository using Git Bash (https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository)
+3. Within this directory run `docker build -t memory_game .`
+4. Run `docker run -d -p 8080:8080 memory_game`
+5. In browser go to `localhost:8080`
+6. When finished with it, run `docker stop <docker container id>` or you can stop the container in the docker desktop app
 
 ### Acknowledgements
 
